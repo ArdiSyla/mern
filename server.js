@@ -17,7 +17,7 @@ const app = express();
 const PORT = process.env.PORT || 5001;
 
 // MongoDB connection URI
-const uri = "mongodb+srv://ardisyla:tUFecdqXCdSV1ui4@ushtrim.s9hqctj.mongodb.net/?retryWrites=true&w=majority&appName=Ushtrim";
+const uri = "";
 mongoose.connect(uri, {});
 
 // Once MongoDB connection is open, log a success message
